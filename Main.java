@@ -16,8 +16,8 @@ public class Main {
         String zipArr = "C:\\Games\\saveGames\\ZipArr.zip";
         String strGameOne = "C:\\Games\\saveGames\\gameOne.dat";
         openZip(zipArr, strGameOne);
-        GameProgress gameProgress = openProgress(strGameOne);
-        System.out.println(gameProgress);
+        GameProgress gameProgress1 = openProgress(strGameOne);
+        System.out.println(gameProgress1);
     }
 
     public static void openZip(String string, String path) {
